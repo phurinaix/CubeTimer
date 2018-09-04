@@ -1,0 +1,58 @@
+body {
+    font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+}
+.container {
+    width: 80%;
+    margin: 100px auto;
+    text-align: center;
+}
+h1 {
+    font-size: 3em;
+}
+#time {
+    font-size: 4em;
+}
+button {
+    display: block;
+    margin: 20px auto;
+    border: 0;
+    padding: 50px;
+    width: 40%;
+    outline: none;
+    cursor: pointer;
+    transition: 0.2s;
+    font-size: 1em;
+}
+#start {
+    background-color: lightblue;
+}
+#start:hover {
+    background-color: rgb(118, 182, 204);
+}
+#stop {
+    background-color: lightcoral;
+    margin-bottom: 50px;
+}
+#stop:hover {
+    background-color: rgb(224, 101, 101);
+}
+#spacebar {
+    color: red;
+    border: 1px solid black;
+    padding: 3px;
+    border-radius: 5px;
+}
+
+@media screen and (max-width: 992px) {
+    button {
+        width: 80%;
+    }
+}
+@media screen and (max-width: 600px) {
+    #time {
+        font-size: 2.5em;
+    }
+    button {
+        width: 100%;
+    }
+}
